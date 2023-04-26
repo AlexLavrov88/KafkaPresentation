@@ -12,7 +12,7 @@ public class SpringBootApplicationProducer
 {
   
 
-    public static void main(String[] args ) {
+    public static void main(String[] args )  {
         SpringApplication.run(SpringBootApplicationProducer.class);
 
     }

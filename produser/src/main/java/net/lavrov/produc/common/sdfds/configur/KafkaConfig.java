@@ -8,12 +8,13 @@ import org.springframework.kafka.config.TopicBuilder;
 public class KafkaConfig {
 
     public NewTopic topic() {
-        return TopicBuilder.name("microservice_presentation")
+        return TopicBuilder.name("microservice_presentation_user")
                 //.partitions(3)
                 .build();
     }
-     private void newMetod() {
-
-
-     }
+    public NewTopic topic1() {
+        return TopicBuilder.name("microservice_presentation_mapp")
+                //.partitions(3)
+                .build();
+    }
 }
